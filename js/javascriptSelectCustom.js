@@ -1,8 +1,7 @@
 (function($){
-	$(document).ready(function(){
+	$.fn.pluginCustomSelect = function(){
 
-		var arraySelect = $('.custom-select');
-		arraySelect.each(function(){
+		return this.each(function(){
 			var select = $(this);
 			var label = select.find("label");
 			var list = select.find("ul");
@@ -76,6 +75,7 @@
 			});
 			
 		});		
-	});
+	};
 
 }(jQuery));
+
