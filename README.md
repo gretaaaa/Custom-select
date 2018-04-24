@@ -1,3 +1,3 @@
 # Custom-select
 
-Plugin in jQuery che trasforma una lista in una select navigabile sia da mouse che da tastiera.
+Plugin in jQuery that transform a list in a select navigable by mouse and by keyboard.
